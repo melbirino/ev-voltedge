@@ -1,0 +1,29 @@
+:root {
+    /* Primary colors */
+    --color-primary: #000000;
+    --color-secondary: #E9FF61;
+    --color-subtext: #999999;
+
+    /* Transparent colors */
+    --color-transparent-1: rgba(255, 255, 255, 0.5);
+    --color-transparent-2: rgba(255, 255, 255, 0.1);
+
+    /* Background color */
+    --color-background-1: #ffffff;
+    --color-background-2: #EDF2F6;
+    --color-background-3: #E9E9E9;
+
+    /* Fonts family */
+    --font-family: 'Syne', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+
+    /* Typography */
+    --text-h1: 236px;
+    --text-h2: 80px;
+    --text-h3: 60px;
+    --text-h4: 42px;
+    --text-h5: 36px;
+    --text-paragraph: 24px;
+    --text-footnotes: 18px;
+}

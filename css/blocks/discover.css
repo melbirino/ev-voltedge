@@ -1,0 +1,53 @@
+.discover {
+    padding: 128px 0;
+}
+.section__descr {
+    width: 162px;
+    height: 42px;
+    color: var(--color-primary);
+    background-color: var(--color-background-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0 auto;
+}
+.section__title {
+    color: var(--color-primary);
+    font-size: var(--text-h3);
+    text-align: center;
+    margin-bottom: 45px;
+    padding-top: 26px;
+    
+}
+.discover__content {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.discover__item {
+    width: 370px;
+}
+.discover__item-img {
+    margin-bottom: 20px;
+}
+.discover__item-title {
+    color: var(--color-primary);
+    font-size: var(--text-paragraph);
+    font-weight: var(--font-weight-regular);
+    margin-bottom: 16px;
+}
+.discover__item-descr {
+    color: var(--color-subtext);
+    font-size: var(--text-footnotes);
+    margin-bottom: 16px;
+}
+.discover__item-max-price {
+    color: var(--color-subtext);
+    font-size: var(--text-paragraph);
+    margin-right: 9px;
+}
+.discover__item-min-price {
+    color: var(--color-primary);
+    font-size: var(--text-paragraph);
+}
