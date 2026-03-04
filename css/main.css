@@ -2,10 +2,13 @@
 
 @import "./base/fonts.css";
 @import "./base/reset.css";
-@import "./base/virables.css";
+@import "./base/variables.css";
 @import "./base/base.css";
 
 /* Blocks */
 @import "./blocks/hero.css";
 @import "./blocks/discover.css";
 @import "./blocks/story.css";
+@import "./blocks/power.css";
+@import "./blocks/comfort.css";
+@import "./blocks/reserve.css";

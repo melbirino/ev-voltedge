@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EV VOLTAGE</title>
+    <title>EV VOLTEDGE</title>
+    <link rel="icon" href="./img/icons/logo-icon.svg">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -53,6 +54,7 @@
             </div>
         </div>
     </section>
+
     <section class="discover">
         <div class="container">
             <div class="section__descr">
@@ -89,6 +91,7 @@
             </div>
         </div>
     </section>
+
     <section class="story">
         <div class="container">
             <div class="section__descr section__descr--story">
@@ -96,7 +99,7 @@
             </div>
             <div class="story__top-wrapper">
                 <div class="section__title section__title--story">
-                    Powering a Greener Future,
+                    Powering a Greener Future,<br>
                     One Drive at a Time
                 </div>
                 <p class="story__text">
@@ -108,22 +111,25 @@
             <div class="story__content">
                 <div class="story__content-left">
                     <div class="story__content-video">
-
+                        <video class="story__video" src="#" poster="img/images/video_preview.jpg"></video>
+                        <img class="story__play" src="img/icons/icon_play.svg" alt="">
                     </div>
-                    <h5 class="story__content-video-title">
-
-                    </h5>
-                    <p class="story__content-video-descr">
-                        Be part of a growing network of EV drivers who share a
-                        passion for sustainability and innovation.
-                    </p>
+                    <div class="story__video-descr">
+                        <h5 class="story__content-info-title">
+                            Join a Connected Charging Network
+                        </h5>
+                        <p class="story__content-info-text">
+                            Be part of a growing network of EV drivers who share a
+                            passion for sustainability and innovation.
+                        </p>
+                    </div>
                 </div>
                 <div class="story__content-right">
                     <div class="story__content-info">
-                        <h5 class="story__content-info-title">
-                            EVs for Everyone
+                        <h5 class="story__content-info-title-bloc">
+                            EVs For Everyone
                         </h5>
-                        <p class="story__content-info-text">
+                        <p class="story__content-info-text-bloc">
                             From eco-conscious drivers to performance enthusiasts, we believe electric vehicles should
                             be accessible and exciting for all.
                         </p>
@@ -133,6 +139,130 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="power">
+        <div class="container">
+            <div class="section__descr section__descr--power">
+                Versatile Power
+            </div>
+            <h3 class="section__title section__title--power">
+                Revolutionizing EV Mobility
+            </h3>
+            <div class="power__wrapper">
+                <div class="item1">
+                    <div class="item1__left">
+                        <h4 class="item1__title">
+                            What
+                            People Say
+                        </h4>
+                        <p class="item1__descr">Sold to over 20M</p>
+                        <div class="item1_img-wrapper">
+                            <img class="item1__img" alt="" src="img/images/item1_img.png">
+                            <span class="item1__img-descr"> 3,000+ Thrilled EV Owners</span>
+                        </div>
+                    </div>
+                    <div class="item1__right">
+                        <img src="img/icons/icon-power.svg" alt="" class="item1__power-img">
+                        <span class="item1__right-money">$50k+</span>
+                    </div>
+                </div>
+
+                <div class="item2">
+                    <div class="item2__logo">
+                        <img class="item2__logo-img" src="img/icons/icon-power.svg" alt="">
+                        <p class="item2__logo-text">EV Voltedge</p>
+                    </div>
+                    <h2 class="item2-title">Electric
+                        Mobility</h2>
+                </div>
+
+                <div class="item3">
+                    <a href="" class="item3__link">
+                        evvoltage.com
+                    </a>
+                    <div class="item3__content">
+                        <h2 class="item3__title">500+</h2>
+                        <p class="item3__descr">Miles Per Charge</p>
+                    </div>
+                </div>
+
+                <div class="item4">
+
+                </div>
+
+                <div class="item5">
+                    <img class="item5__icon" src="img/icons/icon_battery.svg">
+                    <p class="item5__descr">Empowering Sustainable Mobility Through Innovation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="comfort">
+        <div class="container">
+            <div class="section__descr">
+                Versatile Power
+            </div>
+            <h2 class="section__title">
+                Future-Ready Comfort
+            </h2>
+        </div>
+        <div class="embla">
+            <div class="embla__viewport">
+                <div class="embla__container">
+                    <div class="embla__slide">
+                        <img src="img/slider/slider_img1.jpg" alt="" class="embla__slide-img">
+                    </div>
+                    <div class="embla__slide">
+                        <img src="img/slider/slider_img2.jpg" alt="" class="embla__slide-img">
+                    </div>
+                    <div class="embla__slide">
+                        <img src="img/slider/slider_img3.jpg" alt="" class="embla__slide-img">
+                    </div>
+                </div>
+            </div>
+
+            <button class="embla__prev">Scroll to prev</button>
+            <button class="embla__next">Scroll to next</button>
+        </div>
+        <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+        <script src="js/slider.js"></script>
+    </section>
+
+    <section class="reserve">
+        <div class="container container__reserve">
+            <form action="" class="form">
+                <h4 class="form__title">
+                    Reserve Your EV Today!
+                </h4>
+
+                <div class="form__top">
+                    <div class="form__item">
+                        <label for="fname" class="form__label">First Name</label>
+                        <input type="text" id="fname" name="firstname" class="form__input" required>
+                    </div>
+                    <div class="form__item">
+                        <label for="lname" class="form__label">Last Name</label>
+                        <input type="text" id="lname" name="lastname" class="form__input" required>
+                    </div>
+                </div>
+
+                <div class="form__item">
+                    <label for="email" class="form__label">Email ID</label>
+                    <input type="email" id="email" name="email" class="form__input" required>
+                </div>
+
+                <div class="form__item">
+                    <label for="message" class="form__label">Message</label>
+                    <textarea id="message" name="message" class="form__input" rows="4"></textarea>
+                </div>
+
+                <input type="submit" class="form__btn" value="Book Now">
+            </form>
+
+            <img src="./img/images/reserve_img.png" alt="Electric Vehicle" class="reserve__img">
         </div>
     </section>
 </body>

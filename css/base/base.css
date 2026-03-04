@@ -1,12 +1,15 @@
-html{
+html {
     font-family: var(--font-family);
+    font-weight: var(--font-weight-regular);
 }
+
 .container-wide {
     margin: 0 auto;
     max-width: 1340px;
 
 }
-.container{
+
+.container {
     margin: 0 auto;
     max-width: 1240px;
 }

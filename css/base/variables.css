@@ -5,8 +5,8 @@
     --color-subtext: #999999;
 
     /* Transparent colors */
-    --color-transparent-1: rgba(255, 255, 255, 0.5);
-    --color-transparent-2: rgba(255, 255, 255, 0.1);
+    --color-transparent-1: rgba(255, 255, 255, 0.5) ;
+    --color-transparent-2: rgba(255, 255, 255, 0.1) ;
 
     /* Background color */
     --color-background-1: #ffffff;

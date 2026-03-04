@@ -1,0 +1,27 @@
+.reserve {
+    padding-top: ;
+}
+
+.container__reserve {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form {}
+
+.form__title {}
+
+.form__top {}
+
+.form__item {}
+
+.form__label {}
+
+.form__input {}
+
+.form__btn {}
+
+.reserve__img {
+    transform: ;
+}

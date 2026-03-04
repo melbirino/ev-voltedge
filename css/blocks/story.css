@@ -2,35 +2,100 @@
     padding-bottom: 128px;
 }
 
-
 .section__descr--story {
     margin: 0;
 }
+
 .story__top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
 }
-.section__title {
-}
+
 .section__title--story {
+    max-width: 896px;
+    padding-top: 0;
+    margin-bottom: 0;
+    text-align: start;
+
+
 }
+
 .story__text {
+    width: 344px;
+    color: var(--color-subtext);
+    font-size: var(--text-footnotes);
 }
+
 .story__content {
+    display: flex;
+    gap: 20px;
 }
-.story__content-left {
-}
+
+.story__content-left {}
+
 .story__content-video {
+    position: relative;
 }
-.story__content-video-title {
+
+.story__video {}
+
+.story__play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    cursor: pointer;
 }
-.story__content-video-descr {
+
+.story__video-descr {
+    padding-top: 97px;
 }
-.story__content-right {
-}
-.story__content-info {
-}
+
 .story__content-info-title {
+    font-size: var(--text-h5);
+    color: var(--color-primary);
+    font-weight: var(--font-weight-regular);
 }
+
 .story__content-info-text {
+    font-size: var(--text-footnotes);
+    color: var(--color-subtext);
+    font-weight: var(--font-weight-regular);
+    max-width: 480px;
 }
-.btn-primary {
+
+.story__content-right {
+    background: url(../../img/images/story_card.jpg);
+    width: 610px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
+
+.story__content-info {
+    background-color: var(--color-transparent-2);
+    backdrop-filter: blur(24px);
+    margin: 0 24px 24px 24px;
+    border: 1px solid var(--color-transparent-1);
+    padding: 30px 24px;
+}
+
+.story__content-info-title-bloc {
+    font-size: var(--text-h5);
+    color: var(--color-background-1);
+    font-weight: var(--font-weight-regular);
+    margin-bottom: 10px;
+
+}
+
+.story__content-info-text-bloc {
+    font-size: var(--text-footnotes);
+    color: var(--color-background-3);
+    margin-bottom: 32px;
+}
+
+.btn-primary {}
+
+.btn-primary {}
